@@ -6,3 +6,76 @@
   font-weight: 400px;
   font-style: normal;
 }
+/* shared styles hear */
+.display-flex{
+    display: flex;
+}
+.bg-prymary{
+    background-color: rgba(255, 144, 14, 0.10);
+}
+/* font colr */
+/* dark-2 */
+.text-gray{
+    color: #424242;
+}
+/* dark-3 */
+.text-light-gray{
+color: #727272;
+}
+.button-primary{
+    background-color: rgb(255, 144, 14);
+    color: white;
+    padding: 20px 25px;
+    font-weight: 600;
+font-size: 1.25rem;
+    border-radius: 0.5rem;
+    border: none;
+    
+}
+/* header styles hear */
+
+
+/* navber styles heare */
+.navber{
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size:18px ;
+    font-weight: 500;
+
+}
+.navber , .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.brand{
+    font-weight: 800px;
+    font-size: 3rem;
+}
+
+.banner-containt{
+    max-width: 862px;
+ text-align: center;
+    margin: 0  auto;
+    margin-bottom: 50px;
+}
+.banner-containt .banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.banner img{
+    width: 100%;
+}
+
+/* responsive medi Query */
+@media screen and (max-width:576px){
+    .navber {
+        flex-direction: column;
+    }
+}
